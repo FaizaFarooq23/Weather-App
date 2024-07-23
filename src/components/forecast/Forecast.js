@@ -15,7 +15,7 @@ export default function ForecastWeather({ data }) {
                     <AccordionItem key={idx}>
                         <AccordionItemHeading>
                             <AccordionItemButton>
-                                <div className='forecast rounded-[10px] flex items-center cursor-pointer my-2 py-0.5 pl-3 pr-6 h-11 ' >
+                                <div className='forecast rounded-[10px] flex items-center cursor-pointer my-2 py-0.5 pl-3 pr-6 h-12 ' >
                                     <div className='flex justify-center items-center'>
                                         <img className='w-10 inline-block ml-0.5' alt='weather-icon' src={`icons/static/${item.weather[0].icon}.svg`} />
                                         <span className='font-semibold'>{forecastDays[idx]}</span>
